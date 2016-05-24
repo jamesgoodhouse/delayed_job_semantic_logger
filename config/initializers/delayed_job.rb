@@ -1,2 +1,2 @@
-Delayed::Worker.logger = SemanticLogger::Logger.new(Delayed)
+Delayed::Worker.logger = SemanticLogger[Delayed]
 Delayed::Worker.delay_jobs = !Rails.env.test?
