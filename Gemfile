@@ -28,6 +28,8 @@ gem 'rails_semantic_logger'
 gem 'delayed_job_active_record'
 gem 'daemons'
 
+gem 'pry'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
