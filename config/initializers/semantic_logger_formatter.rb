@@ -1,3 +1,5 @@
+SemanticLogger.appenders.first.filter = Proc.new { |log| log.name != 'Delayed' }
+
 SemanticLogger.appenders.first.formatter = Proc.new do |log|
   colors      = SemanticLogger::AnsiColors
   level_color = colors::LEVEL_MAP[log.level]
